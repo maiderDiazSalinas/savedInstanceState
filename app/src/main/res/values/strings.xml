@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="primer_fragment">Primer fragment</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="segundo_fragmento">Segundo Fragmento</string>
+    <string name="volver">Volver</string>
+    <string name="pulsa_el_bot_n">Pulsa el botón</string>
+</resources>
