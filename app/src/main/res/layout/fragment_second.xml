@@ -11,9 +11,9 @@
         android:id="@+id/frag2_tvHola"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="122dp"
-        android:layout_marginTop="316dp"
         android:text="@string/segundo_fragmento"
+        app:layout_constraintBottom_toTopOf="@+id/frag2_bVolver"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -21,10 +21,10 @@
         android:id="@+id/frag2_bVolver"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="145dp"
-        android:layout_marginBottom="214dp"
         android:text="@string/volver"
+        app:layout_constraintTop_toBottomOf="@+id/frag2_tvHola"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
